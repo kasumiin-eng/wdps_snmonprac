@@ -50,9 +50,9 @@ add_action(
 	function() {
 		wp_enqueue_style(
 			'my-snow-monkey',
-			untrailingslashit( plugin_dir_url( __FILE__ ) ) . '/style.css',
+			MY_SNOW_MONKEY_URL . '/style.css',
 			[ Framework\Helper::get_main_style_handle() ],
-			filemtime( plugin_dir_path( __FILE__ ) )
+			filemtime( MY_SNOW_MONKEY_PATH . '/style.css' )
 		);
 	}
 );
