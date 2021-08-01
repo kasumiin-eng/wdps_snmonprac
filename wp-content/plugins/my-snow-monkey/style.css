@@ -1,12 +1,8 @@
-body {
-	background-color: white;
-	font-family:遊ゴシック体;
-}
 
 /*header tel reservartion */
 .header-btn {
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 }
 .header-btn_btn {
 	float: right;
@@ -16,11 +12,6 @@ body {
 	padding-right: 10px;
 	font-weight: bold;
 }
-/*header color*/
-/*.l-header__content {
-	background-color: white;
-}*/
-/*#F2EFEA F8F5E4*/
 /*header*/
 .c-site-branding__title{
 	font-size: 30px;
@@ -32,39 +23,19 @@ body {
 .my-header-content__button .c-btn {
     margin: 0 1rem 0 0;
 }
-/*固定ページ　アイキャッチ*/
-/*.c-page-header__title {
-	color: #6c442a;
-}*/
-/*.c-page-header__content {
-	color: black;
-}*/
-/*SmartSlider*/
-/*.n2-ss-layers-container n2-ss-slide-limiter n2-ow {
-	display: block;
-	margin: 0 auto;
-	
-}*/
-/*LINE隙間は直接固定ページに*/
 
-/*ここをカスタマイズするを消す*/
-.c-btn {
-	display: none;
+.l-header__content {
+	background-color: #EAD1CA;
 }
-.trouble-example{
-	background-color: #FFFFFF;
+
+.p-drop-nav {
+	background-color: #EAD1CA;
+}
+.c-page-header__title {
+	color: gray;
 }
 
 
-
-/*???*/
-/*.koe{
-	background-color: white;
-}
-.approach {
-	border: 4px solid;
-	border-color: #031de2;
-}*/
 .c-entry__title{
 	display: none;
 }
@@ -94,12 +65,6 @@ footer {
 	margin: 0 auto;
 }
 
-/*LINEモバイル画像*/
-/*.sme-hidden-lg-up sme-hidden-md {
-	  vertical-align: bottom;
-   margin: 0 ;
-   padding: 0;
-}*/
 
 /*frontaccess-button*/
 .is-style-ghost {
@@ -127,11 +92,6 @@ footer {
 .smb-btn {
 	width: 165px;
 }
-/*hiza delete*/
-/*.c-page-header__content h1{
-	display: none;
-}*/
-/*LINEボタン隙間消す*/
 
 /*モバイルfooter bar bottom*/
 .p-footer-sticky-nav {
