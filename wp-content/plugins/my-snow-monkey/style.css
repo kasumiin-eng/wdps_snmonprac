@@ -2,14 +2,12 @@
 /*header tel reservartion */
 .header-btn {
 	display: inline-block;
-	/*float: left;*/
 }
 .header-btn_btn {
 	float: right;
 }
 .top-phone {
 	font-size: 25px;
-	padding-right: 10px;
 	font-weight: bold;
 }
 /*header*/
@@ -34,13 +32,30 @@
 .c-page-header__title {
 	color: gray;
 }
-
-
 .c-entry__title{
 	display: none;
 }
 .p-breadcrumbs-wrapper {
     display: none;
+}
+/*お問い合わせ・ブログ・お知らせ　ヘッダー非表示*/
+.page-id-615 #menu-header-2 {
+	display: none;
+}
+.page-id-615 .p-drop-nav{
+	display: none;
+}
+.page-id-998 #menu-header-2 {
+	display: none;
+}
+.page-id-998 .p-drop-nav{
+	display: none;
+}
+.page-id-1121 #menu-header-2 {
+	display: none;
+}
+.page-id-1121 .p-drop-nav{
+	display: none;
 }
 
 /*footer syoujou*/
@@ -116,4 +131,3 @@ footer {
     padding: 5px;
     font-size: 20px;
 }
-
